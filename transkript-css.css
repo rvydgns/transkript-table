@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 70px;
+}
+table,th,td{
+    border: solid;
+}
+thead{
+    text-align: left;
+}
+tbody {
+    text-align: left;
+}
+thead th:nth-last-child(1){
+    padding-right: 100px;
+}
+.tablo-1 th:nth-child(3){
+    text-align: right;
+}
+.tablo-2 th:nth-child(3){
+    text-align: right;
+}
+.tablo-3 th:nth-child(3){
+    text-align: right;
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    margin-top: 0;
+}
+.mezuniyet-tablosu thead{
+    background-color: rgba(135, 135, 135, 0.532);
+    text-align: center;
+    line-height: 30px;
+}
+.mezuniyet-tablosu tbody{
+    text-align: center;
+    line-height: 30px;
+}
+.cizgi{
+    size: 150px;
+}
+footer{
+    cursor: pointer;
+    text-decoration: underline;
+}
